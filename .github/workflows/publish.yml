@@ -14,7 +14,7 @@
 # 🔒 Trust boundary — read this before changing a trigger, the runner or the auth.
 #   - OIDC trusted publishing only. No npm token exists in this repository and none may be
 #     added. npm's trusted publisher for this package is pinned to GitHub Actions on
-#     firejune/stovesdk.js and to the filename `publish.yml` — renaming this file breaks
+#     Blosharper/stovesdk.js and to the filename `publish.yml` — renaming this file breaks
 #     publishing (RELEASING.md, *Publishing*).
 #   - GitHub-hosted runner only. npm does not support OIDC from self-hosted runners, and this
 #     job must never move to a runner that may hold the SDK.

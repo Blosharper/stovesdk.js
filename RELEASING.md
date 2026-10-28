@@ -51,7 +51,7 @@ read-only default: `release.yml` declares per job the write scopes it needs.
 3. Read the diff — the version and the generated changelog are the whole review.
 4. **Approve the `ci` run** on that pull request. It is already there and sitting in
    `action_required`, so the required `test` check is blocked until you do:
-   `gh api -X POST repos/firejune/stovesdk.js/actions/runs/<id>/approve`, or
+   `gh api -X POST repos/Blosharper/stovesdk.js/actions/runs/<id>/approve`, or
    **Approve and run** in the Actions tab. See below for why.
 5. **Merge it.** That is the cut.
 6. Watch the second `release` run: it tags `vX.Y.Z` and creates the GitHub release.
@@ -138,7 +138,7 @@ npm publish --access public
 ```
 
 Then, in the package's settings, add a trusted publisher: **GitHub Actions**, owner
-`firejune`, repository `stovesdk.js`, workflow filename `publish.yml`, no environment.
+`Blosharper`, repository `stovesdk.js`, workflow filename `publish.yml`, no environment.
 Under *Allowed actions* tick **publish directly** — the workflow runs `npm publish`,
 and with staging alone every release would wait for a 2FA approval by hand — and leave
 *manage dist-tags* off: the workflow never runs `npm dist-tag`. A trusted publisher
