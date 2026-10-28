@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/Blosharper/stovesdk.js/compare/v0.3.1...v0.3.2) (2026-10-28)
+
+
+### Bug Fixes
+
+* point package metadata to Blosharper/stovesdk.js ([#25](https://github.com/Blosharper/stovesdk.js/issues/25)) ([6bb93d4](https://github.com/Blosharper/stovesdk.js/commit/6bb93d400ea825a6372d3ab702d694ec29aae5f3))
+
 ## [0.3.1](https://github.com/Blosharper/stovesdk.js/compare/v0.3.0...v0.3.1) (2026-10-06)
 
 

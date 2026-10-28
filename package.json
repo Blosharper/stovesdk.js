@@ -1,6 +1,6 @@
 {
   "name": "stovesdk.js",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Unofficial Node.js / Electron bindings for the STOVE PC SDK (N-API)",
   "license": "MIT",
   "author": "firejune",
