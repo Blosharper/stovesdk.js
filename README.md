@@ -4,7 +4,7 @@ Unofficial Node.js / Electron bindings for the **STOVE PC SDK** (N-API).
 
 The STOVE PC SDK ships official bindings for C, C#, and C++ only. This project wraps the native SDK so Electron and Node.js games can use it the way `steamworks.js` wraps Steamworks.
 
-> **Status: alpha.** Install from npm as `stovesdk.js`; the Windows x64 prebuild ships inside the package and is also attached to each [GitHub release](https://github.com/firejune/stovesdk.js/releases). See *Install* and *Build* below.
+> **Status: alpha.** Install from npm as `stovesdk.js`; the Windows x64 prebuild ships inside the package and is also attached to each [GitHub release](https://github.com/Blosharper/stovesdk.js/releases). See *Install* and *Build* below.
 
 ## Scope
 
@@ -57,10 +57,10 @@ An Electron app usually ships the `.node` in its own resources, next to the thre
 ### Installing from a git tag instead
 
 ```sh
-npm install github:firejune/stovesdk.js#vX.Y.Z
+npm install github:Blosharper/stovesdk.js#vX.Y.Z
 ```
 
-installs the same package without the prebuild (binaries are not tracked in git). Download `stovesdk.node` and `SHA256SUMS` from the [GitHub release](https://github.com/firejune/stovesdk.js/releases) of the same version, check the sum (`sha256sum -c SHA256SUMS`, or `CertUtil -hashfile stovesdk.node SHA256`), and put the binary in one of the places above. (v0.1.0 still runs `node-gyp rebuild` on install; add `--ignore-scripts` for that one.)
+installs the same package without the prebuild (binaries are not tracked in git). Download `stovesdk.node` and `SHA256SUMS` from the [GitHub release](https://github.com/Blosharper/stovesdk.js/releases) of the same version, check the sum (`sha256sum -c SHA256SUMS`, or `CertUtil -hashfile stovesdk.node SHA256`), and put the binary in one of the places above. (v0.1.0 still runs `node-gyp rebuild` on install; add `--ignore-scripts` for that one.)
 
 Or build the binary yourself, below.
 

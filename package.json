@@ -6,8 +6,12 @@
   "author": "firejune",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firejune/stovesdk.js.git"
+    "url": "git+https://github.com/Blosharper/stovesdk.js.git"
   },
+  "bugs": {
+    "url": "https://github.com/Blosharper/stovesdk.js/issues"
+  },
+  "homepage": "https://github.com/Blosharper/stovesdk.js#readme",
   "keywords": [
     "stove",
     "pcsdk",
